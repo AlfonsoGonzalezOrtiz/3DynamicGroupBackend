@@ -1,0 +1,37 @@
+[{
+        "codigo": "EST1",
+        "nombre": "Estante",
+        "descripcion": "Estante de madera de alta calidad",
+        "url_foto": "https://example.com/estante.jpg"
+    },
+    {
+        "codigo": "BAS1",
+        "nombre": "Base",
+        "descripcion": "Base de acero inoxidable",
+        "url_foto": "https://example.com/base.jpg"
+    },
+    {
+        "codigo": "TEC1",
+        "nombre": "Techo",
+        "descripcion": "Techo de plástico resistente",
+        "url_foto": "https://example.com/techo.jpg"
+    },
+    {
+        "codigo": "COSD1",
+        "nombre": "Costado derecho",
+        "descripcion": "Costado derecho de aluminio",
+        "url_foto": "https://example.com/costado_dch.jpg"
+    },
+    {
+        "codigo": "COSI1",
+        "nombre": "Costado izquierdo",
+        "descripcion": "Costado izquierdo de aluminio",
+        "url_foto": "https://example.com/costado_izq.jpg"
+    },
+    {
+        "codigo": "TRA1",
+        "nombre": "Trasera",
+        "descripcion": "Trasera de vidrio templado",
+        "url_foto": "https://example.com/trasera.jpg"
+    }
+]
