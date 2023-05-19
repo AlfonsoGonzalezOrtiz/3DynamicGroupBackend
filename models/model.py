@@ -7,3 +7,4 @@ class object(BaseModel):
     codigo: str
     descripcion: Optional[str]
     url_foto: Optional[str]
+    path: Optional[str]
