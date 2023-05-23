@@ -1,37 +1,55 @@
 [{
-        "codigo": "EST1",
-        "nombre": "Estante",
-        "descripcion": "Estante de madera de alta calidad",
-        "url_foto": "https://example.com/estante.jpg"
-    },
-    {
-        "codigo": "BAS1",
-        "nombre": "Base",
-        "descripcion": "Base de acero inoxidable",
-        "url_foto": "https://example.com/base.jpg"
-    },
-    {
-        "codigo": "TEC1",
-        "nombre": "Techo",
-        "descripcion": "Techo de plástico resistente",
-        "url_foto": "https://example.com/techo.jpg"
-    },
-    {
-        "codigo": "COSD1",
-        "nombre": "Costado derecho",
-        "descripcion": "Costado derecho de aluminio",
-        "url_foto": "https://example.com/costado_dch.jpg"
-    },
-    {
-        "codigo": "COSI1",
-        "nombre": "Costado izquierdo",
-        "descripcion": "Costado izquierdo de aluminio",
-        "url_foto": "https://example.com/costado_izq.jpg"
-    },
-    {
-        "codigo": "TRA1",
-        "nombre": "Trasera",
-        "descripcion": "Trasera de vidrio templado",
-        "url_foto": "https://example.com/trasera.jpg"
-    }
-]
+  "_id": {
+    "$oid": "644ac12fe6f2208cfba3df77"
+  },
+  "codigo": "BAS1",
+  "nombre": "Base",
+  "descripcion": "Base de estanteria",
+  "url_foto": "https://i.imgur.com/vGfQhiu.png",
+  "path": "../assets/cubo BASE.glb"
+},{
+  "_id": {
+    "$oid": "644ac12fe6f2208cfba3df78"
+  },
+  "codigo": "TEC1",
+  "nombre": "Techo",
+  "descripcion": "Techo de estantería",
+  "url_foto": "https://i.imgur.com/qZAiuMw.png",
+  "path": "../assets/cubo TECHO.glb"
+},{
+  "_id": {
+    "$oid": "644ac12fe6f2208cfba3df79"
+  },
+  "codigo": "COSD1",
+  "nombre": "Costado derecho",
+  "descripcion": "Costado derecho de estantería",
+  "url_foto": "https://i.imgur.com/iuegkjz.png",
+  "path": "../assets/cubo COSTADO DCH.glb"
+},{
+  "_id": {
+    "$oid": "644ac12fe6f2208cfba3df7a"
+  },
+  "codigo": "COSI1",
+  "nombre": "Costado izquierdo",
+  "descripcion": "Costado izquierdo de estantería",
+  "url_foto": "https://i.imgur.com/TEk3alP.png",
+  "path": "../assets/cubo COSTADO IZQ.glb"
+},{
+  "_id": {
+    "$oid": "644ac12fe6f2208cfba3df7b"
+  },
+  "codigo": "TRA1",
+  "nombre": "Trasera",
+  "descripcion": "Trasera de estantería",
+  "url_foto": "https://i.imgur.com/Xmw6r5D.png",
+  "path": "../assets/cubo TRASERA.glb"
+},{
+  "_id": {
+    "$oid": "644ac12fe6f2208cfba3df76"
+  },
+  "codigo": "EST1",
+  "nombre": "Estante",
+  "descripcion": "Estante de estantería",
+  "url_foto": "https://i.imgur.com/FxIe2Aw.png",
+  "path": "../assets/cubo ESTANTE.glb"
+}]
