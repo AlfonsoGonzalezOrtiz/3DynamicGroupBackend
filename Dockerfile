@@ -1,5 +1,5 @@
-# Utiliza una imagen base de Python
-FROM python:3.10.-slim
+# Utiliza una imagen base de Python 3.10.6
+FROM python:3.10.6-slim
 
 # Establece el directorio de trabajo dentro del contenedor
 WORKDIR /app
@@ -13,9 +13,8 @@ RUN pip install -r requirements.txt
 # Copia el contenido de la aplicación al contenedor
 COPY . .
 
-
-# Expone el puerto 1234 para acceder a la aplicación desde el exterior del contenedor
+# Expone el puerto 8000 para acceder a la aplicación
 EXPOSE 8000
 
-# Define el comando de inicio de la aplicación
-CMD ["python.exe","-m","uvicorn","app:app","--reload"]
+# Comando para iniciar la aplicación cuando se ejecute el contenedor
+CMD ["python", "-m", "uvicorn", "app:app", "--reload"]
