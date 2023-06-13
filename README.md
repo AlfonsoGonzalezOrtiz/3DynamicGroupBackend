@@ -18,11 +18,11 @@ software sin necesidad de instalar ningún programa o aplicación en sus disposi
 necesidad de configuración, disminuyendo así la carga de memoria que supondría almacenar los archivos 
 de los programas
 
- Esta aplicación web puede resultar de mucha utilidad en muchos campos, tales como: la arquitectura,
+Esta aplicación web puede resultar de mucha utilidad en muchos campos, tales como: la arquitectura,
 para mostrar la elaboración de una construcción a gran escala, el diseño de interiores, pudiendo realizar un 
 modelo 3D capaz de simular la decoración de una habitación y el diseño industrial, permitiendo crear 
 maquinarias complejas a partir de módulos más simples.
- Una de las principales ventajas de esta plataforma es que se podrán distribuir los modelos realizados en 
+Una de las principales ventajas de esta plataforma es que se podrán distribuir los modelos realizados en 
 el formato estándar GLTF basado en JSON, el cual permitirá comprimir y transferir de forma eficiente los 
 diseños 3D entre aplicaciones, minimizando el procesamiento en tiempo de ejecución en aplicaciones que 
 usan WebGL y otras APIs(Interfaz de programación para aplicaciones).
