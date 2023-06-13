@@ -2,6 +2,7 @@ from fastapi.responses import RedirectResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI, Request
 from routes.object import routerobject
+from routes.texture import routertexture
 
 app = FastAPI(
     title="REST API with FastAPI and MongoDB",
@@ -26,3 +27,4 @@ async def redirect(request: Request):
     return RedirectResponse(request.url._url + "docs")
 
 app.include_router(routerobject, tags=["object"], prefix="/objects")
+app.include_router(routertexture, tags=["texture"], prefix="/textures")
